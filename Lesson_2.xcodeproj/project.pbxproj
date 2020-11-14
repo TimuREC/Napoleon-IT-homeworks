@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEA677552560795E008206CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA677542560795E008206CB /* SceneDelegate.swift */; };
 		FED75F6B25606A5B0014975F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED75F6A25606A5B0014975F /* AppDelegate.swift */; };
-		FED75F6D25606A5B0014975F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED75F6C25606A5B0014975F /* SceneDelegate.swift */; };
 		FED75F6F25606A5B0014975F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED75F6E25606A5B0014975F /* ViewController.swift */; };
 		FED75F7225606A5B0014975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED75F7025606A5B0014975F /* Main.storyboard */; };
 		FED75F7425606A5B0014975F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED75F7325606A5B0014975F /* Assets.xcassets */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEA677542560795E008206CB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FED75F6725606A5B0014975F /* Lesson_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED75F6A25606A5B0014975F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FED75F6C25606A5B0014975F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FED75F6E25606A5B0014975F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FED75F7125606A5B0014975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FED75F7325606A5B0014975F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		FED75F6925606A5B0014975F /* Lesson_2 */ = {
 			isa = PBXGroup;
 			children = (
+				FEA677542560795E008206CB /* SceneDelegate.swift */,
 				FED75F6A25606A5B0014975F /* AppDelegate.swift */,
-				FED75F6C25606A5B0014975F /* SceneDelegate.swift */,
 				FED75F6E25606A5B0014975F /* ViewController.swift */,
 				FED75F7025606A5B0014975F /* Main.storyboard */,
 				FED75F7325606A5B0014975F /* Assets.xcassets */,
@@ -139,7 +139,7 @@
 			files = (
 				FED75F6F25606A5B0014975F /* ViewController.swift in Sources */,
 				FED75F6B25606A5B0014975F /* AppDelegate.swift in Sources */,
-				FED75F6D25606A5B0014975F /* SceneDelegate.swift in Sources */,
+				FEA677552560795E008206CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZZ5827BGY;
 				INFOPLIST_FILE = Lesson_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "t.begishev.Lesson-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZZ5827BGY;
 				INFOPLIST_FILE = Lesson_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "t.begishev.Lesson-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
