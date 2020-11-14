@@ -144,4 +144,4 @@ func TestFigures() {
     print("Plane area: ", P.PlaneArea(), "\n\n")
 }
 
-TestFigures()
+//TestFigures()

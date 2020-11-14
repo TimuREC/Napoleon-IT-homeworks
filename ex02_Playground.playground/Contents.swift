@@ -129,6 +129,7 @@ class Parallelogram : Quadrangles {
 
 // Реализация Extensions для классов Triangle и Circle
 extension Triangle {
+    // Метод, создающий из треугольника параллелограм
     func MakeParallelogram() -> Parallelogram {
         var Diag = aSide
         if Diag < bSide {
@@ -157,9 +158,12 @@ extension Triangle {
 }
 
 extension Circle {
+    // Метод, создающий вписанный в окружность квадрат
     func MakeInscribedSquare() -> Square {
         return Square(Width: Radius * sqrt(2))
     }
+
+    // Метод, создающий описанный вокруг окружности квадрат
     func MakeDescribedSquare() -> Square {
         return Square(Width: 2 * Radius)
     }
@@ -194,12 +198,12 @@ func TestExtensions() {
     let P = T.MakeParallelogram()
     let InscribedSquare = C.MakeInscribedSquare()
     let DescribedSquare = C.MakeDescribedSquare()
-    
+
     P.Print()
     InscribedSquare.Print()
     DescribedSquare.Print()
 }
 
 //TestFigures()
-TestExtensions()
+//TestExtensions()
 
