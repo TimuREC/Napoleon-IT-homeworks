@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gCh-VN-EeX">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -66,10 +66,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="88.858695652173921"/>
+            <point key="canvasLocation" x="35" y="89"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lmY-wc-e2R">
+            <objects>
+                <viewController id="gCh-VN-EeX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hUo-E2-HJj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="MFW-uH-Ae4">
+                                <rect key="frame" x="0.0" y="494" width="414" height="245"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAd-Ho-ung" customClass="View" customModule="Lesson_2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bB9-lu-S68" customClass="View" customModule="Lesson_2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="136" width="414" height="109"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bB9-lu-S68" firstAttribute="top" secondItem="MFW-uH-Ae4" secondAttribute="top" constant="136" id="UYS-F5-z2e"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BiRombFig2" translatesAutoresizingMaskIntoConstraints="NO" id="uzU-ac-sRm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="491"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="491" id="tPZ-xj-gSC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zQ3-dr-u8x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MFW-uH-Ae4" firstAttribute="leading" secondItem="uzU-ac-sRm" secondAttribute="leading" id="Aoa-9K-u3E"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="MFW-uH-Ae4" secondAttribute="bottom" constant="-3" id="Jq8-an-SMi"/>
+                            <constraint firstItem="MFW-uH-Ae4" firstAttribute="top" secondItem="uzU-ac-sRm" secondAttribute="bottom" constant="3" id="KOK-xt-sUr"/>
+                            <constraint firstItem="MFW-uH-Ae4" firstAttribute="trailing" secondItem="uzU-ac-sRm" secondAttribute="trailing" id="PMO-x5-mrp"/>
+                            <constraint firstItem="uzU-ac-sRm" firstAttribute="top" secondItem="zQ3-dr-u8x" secondAttribute="top" id="RIp-UT-LRN"/>
+                            <constraint firstItem="uzU-ac-sRm" firstAttribute="centerX" secondItem="hUo-E2-HJj" secondAttribute="centerX" id="RqR-hv-gQC"/>
+                            <constraint firstItem="uzU-ac-sRm" firstAttribute="leading" secondItem="zQ3-dr-u8x" secondAttribute="leading" id="qb9-HP-5O5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhw-Vk-88t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811.59420289855075" y="88.858695652173921"/>
         </scene>
     </scenes>
     <resources>
+        <image name="BiRombFig2" width="193.33332824707031" height="143"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
