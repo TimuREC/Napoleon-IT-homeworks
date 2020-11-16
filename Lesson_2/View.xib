@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eUu-Dx-zyW">
+                    <rect key="frame" x="318" y="70" width="51" height="31"/>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Какой-то переключатель 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIM-Ps-krK">
+                    <rect key="frame" x="30" y="151.66666666666666" width="226" height="21.666666666666657"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A2o-oV-EaS">
+                    <rect key="frame" x="318" y="147" width="51" height="31"/>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Какой-то переключатель 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9b-PE-OGA">
+                    <rect key="frame" x="30.000000000000014" y="79" width="223.33333333333337" height="22.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aIM-Ps-krK" secondAttribute="trailing" constant="-256" id="4Kk-62-0Em"/>
+                <constraint firstItem="aIM-Ps-krK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="Axg-l7-wOq"/>
+                <constraint firstItem="N9b-PE-OGA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="79" id="Ceb-gn-G6z"/>
+                <constraint firstItem="aIM-Ps-krK" firstAttribute="top" secondItem="N9b-PE-OGA" secondAttribute="bottom" constant="50" id="GrK-H9-PYy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="N9b-PE-OGA" secondAttribute="trailing" constant="-253" id="Hgp-dC-LY2"/>
+                <constraint firstItem="aIM-Ps-krK" firstAttribute="top" secondItem="N9b-PE-OGA" secondAttribute="bottom" constant="50" id="Idt-SY-afv"/>
+                <constraint firstItem="A2o-oV-EaS" firstAttribute="leading" secondItem="aIM-Ps-krK" secondAttribute="trailing" constant="62" id="Vha-zf-2nQ"/>
+                <constraint firstItem="eUu-Dx-zyW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N9b-PE-OGA" secondAttribute="trailing" constant="63" id="YfW-T4-EXW"/>
+                <constraint firstItem="eUu-Dx-zyW" firstAttribute="leading" secondItem="A2o-oV-EaS" secondAttribute="leading" id="ZKV-BA-c3O"/>
+                <constraint firstItem="A2o-oV-EaS" firstAttribute="centerY" secondItem="aIM-Ps-krK" secondAttribute="centerY" id="avZ-j9-PGQ"/>
+                <constraint firstItem="A2o-oV-EaS" firstAttribute="top" secondItem="eUu-Dx-zyW" secondAttribute="bottom" constant="46" id="jUx-Kt-54D"/>
+                <constraint firstItem="N9b-PE-OGA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="lCm-af-dp7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="aIM-Ps-krK" secondAttribute="bottom" constant="550" id="oEt-l8-0E7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="A2o-oV-EaS" secondAttribute="bottom" constant="558" id="uvF-Gh-XfT"/>
+            </constraints>
+            <point key="canvasLocation" x="528.98550724637687" y="-549.45652173913049"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
