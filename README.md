@@ -1,2 +1,6 @@
-# napoleon_it_ios_lesson3_2
-Napoleon IT iOS App Dev Online course
+# Napoleon IT iOS App Dev Online course
+
+### Урок 3. Совмещение верстки с кодом. Обработка интеракций пользователя
+
+Задание 2.
+Создать экран. Программно добавить туда Label в верхнюю половину экрана и View на 40pt ниже, чем Label. Наложить на View UIPanGestureRecognizer. Если двигать по View пальцем снизу вверх - число на Label увеличивается, сверху вниз - уменьшается. Label и View должны быть центрированы по оси Х.
