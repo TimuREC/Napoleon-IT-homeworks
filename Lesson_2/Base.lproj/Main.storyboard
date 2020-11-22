@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,8 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KtW-V4-5Mk">
+                            <view contentMode="scaleToFill" id="KtW-V4-5Mk">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="368"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Будущее приложение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBX-w7-2Mc">
                                         <rect key="frame" x="82" y="169" width="250" height="30"/>
@@ -33,8 +34,9 @@
                                     <constraint firstItem="HBX-w7-2Mc" firstAttribute="centerY" secondItem="KtW-V4-5Mk" secondAttribute="centerY" id="Url-Q4-CQc"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rif-SX-q3u">
+                            <view contentMode="scaleToFill" id="Rif-SX-q3u">
                                 <rect key="frame" x="0.0" y="368" width="414" height="368"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UA-zr-Lmn">
                                         <rect key="frame" x="162" y="163" width="90" height="42"/>
@@ -53,14 +55,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3XD-x5-VEa"/>
-                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7bl-Zb-o8n"/>
-                            <constraint firstItem="Rif-SX-q3u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EIN-2e-FUa"/>
-                            <constraint firstItem="Rif-SX-q3u" firstAttribute="top" secondItem="KtW-V4-5Mk" secondAttribute="bottom" id="OQK-H2-jeK"/>
-                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kTd-2F-smv"/>
-                            <constraint firstItem="Rif-SX-q3u" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mjk-vc-1jJ"/>
-                            <constraint firstAttribute="bottom" secondItem="KtW-V4-5Mk" secondAttribute="bottom" constant="368" id="p1H-wU-wb6"/>
-                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="leading" secondItem="Rif-SX-q3u" secondAttribute="leading" id="zc6-20-Ppt"/>
+                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7mg-lh-hZP"/>
+                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="872-Dv-wM6"/>
+                            <constraint firstItem="Rif-SX-q3u" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IN4-Uz-DeD"/>
+                            <constraint firstItem="Rif-SX-q3u" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IaE-Uc-3kx"/>
+                            <constraint firstItem="KtW-V4-5Mk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WFN-Wu-DL0"/>
+                            <constraint firstItem="Rif-SX-q3u" firstAttribute="top" secondItem="KtW-V4-5Mk" secondAttribute="bottom" id="crF-E7-4HP"/>
+                            <constraint firstItem="Rif-SX-q3u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hA7-Zf-iyB"/>
                         </constraints>
                     </view>
                 </viewController>
