@@ -42,7 +42,6 @@ class ViewController: UIViewController {
     @IBAction func startDownload(_ sender: Any) {
 //        downloadButton.isHidden.toggle()
         setupPhotos()
-//        collectionView.reloadData()
     }
 
 }
@@ -84,7 +83,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.item)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(identifier: "PhotoView") as! PhotoViewController
         controller.modalPresentationStyle = .fullScreen
