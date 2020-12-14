@@ -1,3 +1,5 @@
+import Foundation
+
 struct Queue<Element>: ExpressibleByArrayLiteral {
     private var elements: [Element]
     
