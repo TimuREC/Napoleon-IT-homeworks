@@ -1,2 +1,6 @@
-# napoleon_it_ios_lesson8_2
-Napoleon IT iOS App Dev Online course
+# Napoleon IT iOS App Dev Online course
+
+### Урок 8. Основы рефакторинга и правильного проектирования кода. Продвинутые инструменты в Swift
+
+Задание 2.
+Написать любую структуру данных и использованием дженериков.
